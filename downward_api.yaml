@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: flask-container
-    image: user/repo:latest
+    image: hwankoo/downward_api:latest
     env:
     - name: POD_NAME
       valueFrom:
