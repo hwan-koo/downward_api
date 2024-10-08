@@ -45,7 +45,7 @@ jobs:
         uses: aquasecurity/trivy-action@master
         with:
           #image-ref: 'docker.io/my-organization/my-app:${{ github.sha }}'
-          image-ref: 'docker.io/hwankoo/downward_api'
+          image-ref: 'docker.io/hwankoo/downward_api:master'
           format: 'sarif'
           output: 'trivy-results.sarif'
 
